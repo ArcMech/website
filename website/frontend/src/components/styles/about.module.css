@@ -1,0 +1,147 @@
+.about {
+  width: 100%;
+  margin-top: -100px;
+  z-index: 100;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: rgba(34, 32, 44, 0.55);
+  padding-bottom: 40px;
+}
+
+.about_content {
+  width: 85%;
+  background: #fff;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+
+.text_content > a {
+  display: flex;
+  justify-content: center;
+}
+
+.text_content {
+  padding: 40px 60px 50px;
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text_content > .text_content_thumbnail {
+  font-size: 3rem;
+  line-height: 3.8rem;
+  font-weight: 600;
+}
+
+.text_content > .text_content_thumbnail:hover {
+  color: #ef533d;
+}
+
+.text_content > p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 28px;
+  margin-bottom: 2rem;
+  color: #616c74;
+  word-wrap: break-word;
+}
+
+.image_content {
+  display: flex;
+  width: 50%;
+  height: auto;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.image_content > img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_button {
+  padding: 10px 20px;
+  background: #0f1626;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 4vh;
+  font-size: 14px;
+  text-align: center;
+}
+.about_button:hover {
+  background: #202e4e;
+  cursor: pointer;
+}
+
+.tags {
+  padding: 10px 20px;
+  width: auto;
+  background: #fff;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  margin: 40px auto;
+  justify-content: space-around;
+  transition: 0.5s;
+}
+
+@media (max-width: 1000px) {
+  .about_content {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .about_button {
+    margin-top: 2vh;
+  }
+  .text_content {
+    width: 100%;
+    height: auto;
+  }
+  .text_content > .text_content_thumbnail {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  .text_content > p {
+    font-size: 1rem;
+    margin: 2rem 0;
+  }
+
+  .image_content {
+    display: flex;
+    background-image: url("../img/my-photo-smaller.jpg");
+    background-position: 50%;
+    margin: auto;
+    min-width: 260px;
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+  }
+  .image_content > img {
+    display: none;
+  }
+}
+
+@media (max-width: 472px) {
+  .about {
+    padding: 0;
+  }
+  .about_content {
+    width: 100%;
+    margin: 0;
+  }
+  .text_content {
+    padding: 20px 20px 40px;
+  }
+  .tags {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}

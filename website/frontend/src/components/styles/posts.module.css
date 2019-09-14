@@ -1,0 +1,58 @@
+.box {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-top: 3rem;
+}
+
+.item {
+  width: 100%;
+  min-height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+.item:last-child {
+  padding-bottom: 20px;
+}
+
+.item_text {
+  position: static;
+  min-height: 300px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  padding: 10px 0;
+  letter-spacing: 1px;
+}
+
+.overview {
+  text-align: justify;
+}
+
+.center {
+  display: flex;
+  justify-self: center;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .small {
+    padding: 5px 0;
+  }
+  .item_text {
+    padding: 1rem 0 0;
+  }
+}

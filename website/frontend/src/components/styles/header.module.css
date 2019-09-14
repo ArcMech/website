@@ -1,0 +1,33 @@
+header {
+  height: 60px;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo_container {
+  height: 40px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  background-image: url("../img/logo.svg");
+  background-size: 100%;
+}
+
+.menu {
+  height: 40px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu > .menu_nav {
+  padding: 0 0 0 2rem;
+  font-size: 1.2rem;
+}

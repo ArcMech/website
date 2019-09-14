@@ -7,6 +7,18 @@ module.exports = {
         use: {
           loader: "babel-loader"
         }
+      },
+      {
+        test: /\.css$/i,
+        use: {
+          loader: "css-loader"
+        }
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: {
+          loader: "file-loader"
+        }
       }
     ]
   }

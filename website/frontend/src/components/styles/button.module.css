@@ -1,0 +1,22 @@
+.post_btn {
+  text-align: center;
+  height: auto;
+  font-weight: lighter;
+  font-size: 1rem;
+  text-transform: lowercase;
+  justify-content: center;
+  padding: 0.6rem 1.4rem;
+  background: #ef533d;
+  outline: none;
+  border: none;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  border-radius: 20px;
+}
+
+.post_btn:hover {
+  cursor: pointer;
+  background-color: #da4a37;
+}

@@ -1,0 +1,46 @@
+.cover {
+  margin: 40px 0;
+  width: 100%;
+  min-height: 300px;
+  height: auto;
+  background: #0f1626;
+  display: flex;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.title {
+  padding: 40px 20px 10px;
+}
+
+.overview {
+  text-align: center;
+  width: 100%;
+  padding: 10px 20px 40px;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+.post {
+  width: 100%;
+  padding: 60px;
+  text-align: justify;
+}
+.post > h2 {
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+.post > p {
+  font-size: 1.2rem;
+  padding: 1rem;
+  line-height: 2rem;
+}

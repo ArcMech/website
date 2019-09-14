@@ -16,9 +16,18 @@ module.exports = {
         }
       },
       {
+        test: /\.css$/,
+        use: {
+          loader: "style-loader"
+        }
+      },
+      {
         test: /\.css$/i,
         use: {
-          loader: "css-loader"
+          loader: "css-loader",
+          query: {
+            modules: true
+          }
         }
       },
       {

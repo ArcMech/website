@@ -1,4 +1,11 @@
 module.exports = {
+  entry: {
+    main: ["@babel/polyfill", "./website/frontend/src/index.js"]
+  },
+  output: {
+    filename: "main.js",
+    path: __dirname + "/website/frontend/static/frontend/"
+  },
   module: {
     rules: [
       {

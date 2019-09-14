@@ -4,8 +4,8 @@
   "description": "In this repository you can find all code I used for my page/blog. It contains React.js as a frontend and Django with DRF as backend. Frontend for page was published earlier on [my github here](https://github.com/ArcMech/blog-frontend).",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./website/frontend/src/index.js --output ./website/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./website/frontend/src/index.js --output ./website/frontend/static/frontend/main.js"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",

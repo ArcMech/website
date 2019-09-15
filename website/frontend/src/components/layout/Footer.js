@@ -1,8 +1,5 @@
 import React from "react";
 import styles from "../styles/footer.module.css";
-import gh from "../img/gh.svg";
-import fb from "../img/fb.svg";
-import env from "../img/env.svg";
 
 const Footer = () => {
   return (
@@ -10,7 +7,7 @@ const Footer = () => {
       <ul>
         <li>
           <a href="https://github.com/ArcMech" className={styles.icon}>
-            <img src={gh}></img>
+            <img src="/static/frontend/img/gh.svg"></img>
           </a>
         </li>
         <li>
@@ -18,12 +15,12 @@ const Footer = () => {
             href="https://www.facebook.com/arkadiusz.koziarz"
             className={styles.icon}
           >
-            <img src={fb}></img>
+            <img src="/static/frontend/img/fb.svg"></img>
           </a>
         </li>
         <li>
           <a href="mailto:arek.krz@gmail.com" className={styles.icon}>
-            <img src={env}></img>
+            <img src="/static/frontend/img/env.svg"></img>
           </a>
         </li>
       </ul>

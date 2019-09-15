@@ -116,7 +116,7 @@
 
   .image_content {
     display: flex;
-    background-image: url("../img/my-photo-smaller.jpg");
+    background-image: url("/static/frontend/img/my-photo-smaller.jpg");
     background-position: 50%;
     margin: auto;
     min-width: 260px;

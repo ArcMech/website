@@ -1,6 +1,8 @@
 node_modules
 website/website/secrets.py
 website/db.sqlite3
+static_in_env
+static_root
 
 ##Django##
 

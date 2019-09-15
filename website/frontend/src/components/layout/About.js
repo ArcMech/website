@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/about.module.css";
-import myImage from "../img/my-photo.jpg";
+// import myImage from "../img/my-photo.jpg";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
         </div>
         <div className={styles.image_content}>
           <img
-            src={myImage}
+            src="/static/frontend/img/my-photo.jpg"
             alt="Arkadiusz Koziarz - twój frontend developer"
           />
         </div>

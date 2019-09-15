@@ -15,7 +15,7 @@ header {
 .logo {
   height: 40px;
   width: 40px;
-  background-image: url("../img/logo.svg");
+  background-image: url("/static/frontend/img/logo.svg");
   background-size: 100%;
 }
 

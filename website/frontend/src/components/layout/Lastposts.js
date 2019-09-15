@@ -1,6 +1,4 @@
 import React from "react";
-// import axios from "axios";
-// import { useEffect, useState } from "react";
 import styles from "../styles/lastposts.module.css";
 import Button from "./Button";
 import { Link } from "react-router-dom";
@@ -16,7 +14,7 @@ const Lastposts = ({ posts }) => {
             key={post.id}
           >
             <div className={styles.post_text}>
-              <h4>React, Stuff</h4>
+              <h4>{post.tags}</h4>
               <h2>{post.title}</h2>
               <p>{post.overview}</p>
               <Link to={"/blog/" + post.id}>

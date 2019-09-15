@@ -5,11 +5,11 @@ def index(request):
     context = {
         'id': id
     }
-    return render(request, 'frontend/index.html')
+    return render(request, 'index.html')
 
 
 def blog(request, id):
     context = {
         'id': id
     }
-    return render(request, 'frontend/index.html', context)
+    return render(request, 'index.html', context)

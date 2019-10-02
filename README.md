@@ -6,6 +6,8 @@ In this repository you can find all code I used for my page/blog. It contains Re
 
 Features I'm working currently on:
 
+- [ ] FIX MOZILLA AND IE ISSUES
+
 - [ ] portfolio subpage
 - [ ] dev-week updates subblog
 - [ ] contact-form
